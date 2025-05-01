@@ -1,5 +1,43 @@
-# Vue 3 + TypeScript + Vite
+# BaseApp
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Estrutura base para novos projetos Vue 3 com Vite, TypeScript, Tailwind CSS, Pinia, Vue Router e suporte a PWA.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Tecnologias e Plugins
+
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Pinia (Store)](https://pinia.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) (PWA com atualização automática e modo offline)
+- [gh-pages](https://github.com/tschaub/gh-pages) (deploy opcional no GitHub Pages)
+
+   instalar o npm com npm install
+   instalar o gh-pages com npm install --save-dev gh-pages
+   instalar o path com npm install path
+
+## Scripts
+
+- `npm run dev` — roda o projeto em modo de desenvolvimento
+- `npm run build` — faz o build do projeto para produção
+- `npm run preview` — pré-visualiza o build de produção localmente
+- `npm run deploy` — envia os arquivos para o GitHub Pages (pasta `dist`)
+
+## Estrutura inicial
+
+```bash
+src/
+├── assets/
+├── components/
+│   ├── PwaNotification.vue
+│   └── PwaStatus.vue
+├── views/
+│   └── TelaStatus.vue
+├── stores/
+│   └── counter.ts
+├── router/
+│   └── index.ts
+├── App.vue
+├── main.ts
+├── style.css

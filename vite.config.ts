@@ -18,9 +18,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.svg'],
       manifest: {
-        name: 'Estante de Livros',
-        short_name: 'Estante',
-        description: 'Aplicativo para gerenciar sua estante de livros',
+        name: 'Extrutura Basica',
+        short_name: 'Basico',
+        description: 'Aplicativo com uma extrutura basica para começar',
         theme_color: '#3B82F6',
         background_color: '#ffffff',
         display: 'standalone',
