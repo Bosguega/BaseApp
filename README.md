@@ -1,3 +1,6 @@
+ ## Usar o setup.sh na pasta Trabalhos
+
+
 # BaseApp
 
 Estrutura base para novos projetos Vue 3 com Vite, TypeScript, Tailwind CSS, Pinia, Vue Router e suporte a PWA.
@@ -12,10 +15,7 @@ Estrutura base para novos projetos Vue 3 com Vite, TypeScript, Tailwind CSS, Pin
 - [Vue Router](https://router.vuejs.org/)
 - [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) (PWA com atualização automática e modo offline)
 - [gh-pages](https://github.com/tschaub/gh-pages) (deploy opcional no GitHub Pages)
-
-   instalar o npm com npm install
-   instalar o gh-pages com npm install --save-dev gh-pages
-   instalar o path com npm install path
+   
 
 ## Scripts
 
